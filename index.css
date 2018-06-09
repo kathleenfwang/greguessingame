@@ -1,0 +1,107 @@
+body {
+  text-align: center;
+  font-family:Tahoma; 
+  background-color:lightgoldenrodyellow;
+}
+
+.show {
+  max-height:1000px; 
+}
+ 
+ 
+.hide{
+max-height:0; 
+/* the content will spill out, so make it hidden with overflow */ 
+overflow: hidden;  
+}
+button { 
+  outline: none;
+  border:none;
+  background:orange;
+  cursor: pointer;
+  color:white;
+  display: block;
+  position:relative;
+  font-size:16px;
+  font-weight:300px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding:25px 80px;
+  margin: 0 auto;
+  border-radius:20px;
+  box-shadow: 0px 6px #efa424
+}
+
+button:hover {
+  box-shadow: 0px 4px #efa424;
+  top:2px;
+}
+
+button:active{
+  box-shadow: none;
+  top:6px;
+}
+ul {
+ 
+ list-style-type: none; 
+}
+
+li:hover{
+  font-size:1.5em; 
+  background:orange;
+  opacity:.5; 
+  color:white;
+  cursor: pointer; 
+}
+
+li {
+  background:white; 
+  margin-bottom:5px; 
+  padding:5px; 
+    transition: 0.3s;
+}
+.correct {
+  font-size:2em; 
+   color: orange; 
+   background-color:white; 
+}
+.correct:hover {
+  background:white; 
+  color: orange;  
+  font-size:2em;
+}
+.wrong {
+  background-color:orange; 
+  color:white; 
+  text-decoration: line-through; 
+}
+
+.wrong:hover{
+  color: grey;
+  font-size:1em; 
+}
+
+span {
+  color:red;
+  font-weight:bold;  
+}
+
+#def {
+  font-weight:bold;
+  color:green; 
+}
+#correctdef {
+  border-bottom: 2px solid orange;
+  font-family: 'Courier New', Courier, monospace; 
+}
+
+#worddefinitionlist {
+  text-align:left; 
+  font-family:'Courier New', Courier, monospace; 
+}
+
+#correctdef {
+  color:green; 
+}
+
+ 
